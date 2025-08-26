@@ -9,6 +9,7 @@ const lastName = "Latif";
 // EXERCISE
 // show in the console
 // My first name is Anders and my last name is Latif
+console.log("My first name is " + firstName + " and my last name is " + lastName)
 
 
 // --------------------------------------
@@ -21,5 +22,6 @@ const increment = 1;
 // The result should be 2025
 // You cannot touch the first or the second line
 
+console.log(Number(year) + increment)
 
-// --------------------------------------
+// ------------------2--------------------
