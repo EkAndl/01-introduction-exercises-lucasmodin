@@ -4,7 +4,9 @@
 // Exercise 1 - Array Positioning
 
 const letters = ["a", "b", "c"];
-// show b in the console 
+// show b in the console
+
+console.log(letters[1])
 
 
 // --------------------------------------
@@ -12,7 +14,12 @@ const letters = ["a", "b", "c"];
 
 const friends = [];
 
-// What a lonely array. Add at least 3 friend objects to it.  
+// What a lonely array. Add at least 3 friend objects to it.
+friends.push({name: "juicyJ", age: 45})
+friends.push({name: "digbar", age: 32})
+friends.push({name: "bossTrellMaxPayne", age: 19})
+
+console.log(friends)
 
 
 // --------------------------------------
@@ -23,6 +30,7 @@ const significantMathNumbers = [0, 2.718, 3.14159, 1729];
 // You want to programmatically find where the number 1729 is in the array.
 // programmatically means that no finger counting allowed. There is a method for this (finding index based of value). 
 
+console.log(significantMathNumbers.indexOf(1729))
 
 // --------------------------------------
 // Exercise 4 - Inserting elements
@@ -30,6 +38,10 @@ const significantMathNumbers = [0, 2.718, 3.14159, 1729];
 const diet = ["tomato", "cucumber", "rocket"];
 
 // You are a programmer. In one line (one statement) insert hamburger, soda and pizza between the elements cucumber and rocket
+
+diet.splice(2, 0, "hamburger", "soda", "pizza")
+
+console.log(diet)
 
 
 
