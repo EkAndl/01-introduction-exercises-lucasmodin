@@ -6,16 +6,22 @@
 const firstName = "Anders";
 const lastName = "Latif";
 
+
 // EXERCISE
 // show in the console
 // My first name is Anders and my last name is Latif
 
+console.log("My first name is " + firstName + " and my last name is " + lastName)
 
 // --------------------------------------
 // Exercise 2 - Numbers and Strings
 
 const year = "2024";
 const increment = 1;
+
+const sum = Number(year) + increment;
+
+console.log(sum)
 
 // Add the year plus the increment
 // The result should be 2025
