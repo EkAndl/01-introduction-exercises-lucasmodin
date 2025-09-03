@@ -6,9 +6,12 @@
 const firstName = "Anders";
 const lastName = "Latif";
 
+
 // EXERCISE
 // show in the console
 // My first name is Anders and my last name is Latif
+console.log(`My first name is ${firstName} and my last name is ${lastName}`)
+
 
 
 // --------------------------------------
@@ -17,9 +20,14 @@ const lastName = "Latif";
 const year = "2024";
 const increment = 1;
 
+const sum = Number(year) + increment;
+
+console.log(sum)
+
 // Add the year plus the increment
 // The result should be 2025
 // You cannot touch the first or the second line
 
+console.log(Number(year) + increment)
 
-// --------------------------------------
+// ------------------2--------------------
